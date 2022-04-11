@@ -4,6 +4,9 @@ const schema = new Schema({
     name: {
         type: String
     },
+    id: {
+        type: String
+    },
     color: {
         type: String
     }

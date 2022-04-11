@@ -12,11 +12,11 @@ const schema = new Schema({
     },
     color: {
         type: Schema.Types.ObjectId,
-        ref: 'Products'
+        ref: 'Color'
     },
     category: {
         type: Schema.Types.ObjectId,
-        ref: 'category'
+        ref: 'Category'
     },
     img: {
         type: String

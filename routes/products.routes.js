@@ -1,11 +1,12 @@
 const express = require('express')
+const Products = require('../models/Products')
 const router = express.Router({
     mergeParams: true
 })
 
 router.get('/', async (req, res) => {
     try {
-        const list = [];
+        const list = await Products.find();
         res.status(200).send(list)
     } catch (e) {
         res.status(500).json({
