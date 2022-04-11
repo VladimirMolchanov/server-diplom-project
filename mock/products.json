@@ -1,0 +1,119 @@
+[
+    {
+        "_id": "m_ISZFTbgpNWizGjVFYQP",
+        "name": "Beats Studio3 Wireless Over‑Ear",
+        "second": "Headphones - Blue",
+        "price": 249,
+        "color": "BVroA0f7FibPU2STqv6y2",
+        "category": "M9FPN39b3RQ8kuUfe0m31",
+        "img": "assets/image/BeatsStudio3Wireless_Blue.png"
+    },
+    {
+        "_id": "spWc78n0ZJ6ZPpvhNFlDw",
+        "name": "Beats Studio3 Wireless Over‑Ear",
+        "second": "Headphones - White",
+        "price": 249,
+        "color": "wFh57f7cwr-j4lISIPPwJ",
+        "category": "M9FPN39b3RQ8kuUfe0m31",
+        "img": "assets/image/BeatsStudio3Wireless_White.png"
+    },
+    {
+        "_id": "Xc41OjNjovmIMNaYuRWD6",
+        "name": "Beats Studio3 Wireless Over‑Ear",
+        "second": "Headphones - Matte Black",
+        "price": 249,
+        "color": "QF138gssUFkikr_VB7W-x",
+        "category": "M9FPN39b3RQ8kuUfe0m31",
+        "img": "assets/image/BeatsStudio3Wireless_MatteBlack.png"
+    },
+    {
+        "_id": "Xc41OjNjovmIMNaYuRWD6",
+        "name": "Beats Studio3 Wireless Over‑Ear",
+        "second": "Headphones - The Beats Decade Collection - Defiant Black-Red",
+        "price": 249,
+        "color": "Ssbty6iet19h7CDFMqC9F",
+        "category": "M9FPN39b3RQ8kuUfe0m31",
+        "img": "assets/image/BeatsStudio3Wireless_DefiantBlackRed.png"
+    },
+    {
+        "_id": "Xc41OjNjovmIMNaYuRWD6",
+        "name": "Beats Studio3 Wireless Over‑Ear",
+        "second": "Headphones - Red",
+        "price": 249,
+        "color": "nY5sbXHs1PWYrGtHcGsru",
+        "category": "M9FPN39b3RQ8kuUfe0m31",
+        "img": "assets/image/BeatsStudio3Wireless_Red.png"
+    },
+    {
+        "_id": "Xc41OjNjovmIMNaYuRWD6",
+        "name": "Beats Studio3 Wireless Over‑Ear",
+        "second": "Headphones – The Beats Skyline Collection - Midnight Black",
+        "price": 249,
+        "color": "VM-Z_4OkM8vUzshPbX_3X",
+        "category": "M9FPN39b3RQ8kuUfe0m31",
+        "img": "assets/image/BeatsStudio3Wireless_MidnightBlack.png"
+    },
+    {
+        "_id": "Xc41OjNjovmIMNaYuRWD6",
+        "name": "Beats Studio3 Wireless",
+        "second": "Headphones – The Beats Skyline Collection - Shadow Gray",
+        "price": 249,
+        "color": "UJZGcWV4qPnIXBroJDHfN",
+        "category": "M9FPN39b3RQ8kuUfe0m31",
+        "img": "assets/image/BeatsStudio3Wireless_ShadowGray.png"
+    },
+    {
+        "_id": "ZsSxVL9v0ynaCtd4nW5lj",
+        "name": "Beats Solo3 Wireless",
+        "second": "Headphones - The Beats Icon Collection - Matte Black",
+        "price": 249,
+        "color": "QF138gssUFkikr_VB7W-x",
+        "category": "M9FPN39b3RQ8kuUfe0m31",
+        "img": "assets/image/BeatsSolo3Wireless_MatteBlack.png"
+    },
+    {
+        "_id": "6La8y7FKjOSpoSkmrWtgL",
+        "name": "Beats Solo3 Wireless",
+        "second": "Headphones - Rose Gold",
+        "price": 249,
+        "color": "oHYtmuOrIbO9ULEA0pzMj",
+        "category": "M9FPN39b3RQ8kuUfe0m31",
+        "img": "assets/image/BeatsSolo3Wireless_RoseGold.png"
+    },
+    {
+        "_id": "RHxZWwXovpylykp4y127H",
+        "name": "Beats Solo3 Wireless",
+        "second": "Headphones - (PRODUCT)RED Citrus Red",
+        "price": 249,
+        "color": "nY5sbXHs1PWYrGtHcGsru",
+        "category": "M9FPN39b3RQ8kuUfe0m31",
+        "img": "assets/image/BeatsSolo3Wireless_CitrusRed.png"
+    },
+    {
+        "_id": "MGg7o1tXgy7crGE8h294r",
+        "name": "Beats Studio Buds",
+        "second": "True Wireless Noise Cancelling Earphones – White",
+        "price": 249,
+        "color": "wFh57f7cwr-j4lISIPPwJ",
+        "category": "XM5yMaeLczN0iEDxe2UzB",
+        "img": "assets/image/BeatsStudioBuds_White.png"
+    },
+    {
+        "_id": "3nnMLUlI2TxmTO6Ih7RWI",
+        "name": "Beats Studio Buds",
+        "second": "True Wireless Noise Cancelling Earphones – Black",
+        "price": 249,
+        "color": "piPTDnxiNxZImf3o4GeQm",
+        "category": "XM5yMaeLczN0iEDxe2UzB",
+        "img": "assets/image/BeatsStudioBuds_Black.png"
+    },
+    {
+        "_id": "MGg7o1tXgy7crGE8h294r",
+        "name": "Beats Studio Buds",
+        "second": "True Wireless Noise Cancelling Earphones – Red",
+        "price": 249,
+        "color": "nY5sbXHs1PWYrGtHcGsru",
+        "category": "XM5yMaeLczN0iEDxe2UzB",
+        "img": "assets/image/BeatsStudioBuds_Red.png"
+    }
+]
