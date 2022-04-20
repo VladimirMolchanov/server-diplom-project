@@ -6,20 +6,20 @@ const ColorMock = require('../mock/color.json')
 const CategoryMock = require('../mock/category.json')
 
 module.exports = async () => {
-    // const color = await Color.find()
-    // if (color.length !== ColorMock.length) {
-    //     await generateSimpleEntity(Color, ColorMock)
-    // }
-    //
-    // const category = await Category.find()
-    // if (category.length !== CategoryMock.length) {
-    //     await generateSimpleEntity(Category, CategoryMock)
-    // }
-    //
-    // const products = await Products.find()
-    // if (products.length !== ProductsMock.length) {
-    //     await createInitialEntityProduct(Products, ProductsMock)
-    // }
+    const color = await Color.find()
+    if (color.length !== ColorMock.length) {
+        await generateSimpleEntity(Color, ColorMock)
+    }
+
+    const category = await Category.find()
+    if (category.length !== CategoryMock.length) {
+        await generateSimpleEntity(Category, CategoryMock)
+    }
+
+    const products = await Products.find()
+    if (products.length !== ProductsMock.length) {
+        await createInitialEntityProduct(Products, ProductsMock)
+    }
 }
 
 const generateSimpleEntity = (model, data) => {
