@@ -6,23 +6,44 @@ const ColorMock = require('../mock/color.json')
 const CategoryMock = require('../mock/category.json')
 
 module.exports = async () => {
-    const color = await Color.find()
-    if (color.length !== ColorMock.length) {
-        await createInitialEntity(Color, ColorMock)
-    }
-
-    const category = await Category.find()
-    if (category.length !== CategoryMock.length) {
-        await createInitialEntity(Category, CategoryMock)
-    }
-
-    const products = await Products.find()
-    if (products.length !== ProductsMock.length) {
-        await createInitialEntity(Products, ProductsMock)
-    }
+    // const color = await Color.find()
+    // if (color.length !== ColorMock.length) {
+    //     await generateSimpleEntity(Color, ColorMock)
+    // }
+    //
+    // const category = await Category.find()
+    // if (category.length !== CategoryMock.length) {
+    //     await generateSimpleEntity(Category, CategoryMock)
+    // }
+    //
+    // const products = await Products.find()
+    // if (products.length !== ProductsMock.length) {
+    //     await createInitialEntityProduct(Products, ProductsMock)
+    // }
 }
 
-async function createInitialEntity(Model, data) {
+const generateSimpleEntity = (model, data) => {
+    return Promise.all(
+        data.map(async (example) => {
+            try {
+                const exm = await model.find({
+                    name: example.name,
+                });
+                if (exm.length !== 0) {
+                    return exm[0];
+                }
+                delete example._id;
+                const newExm = new model(example);
+                await newExm.save();
+                return newExm;
+            } catch (error) {
+                return error;
+            }
+        })
+    );
+};
+
+async function createInitialEntityProduct(Model, data) {
     await Model.collection.drop()
     const color = await Color.find()
     const category = await Category.find()

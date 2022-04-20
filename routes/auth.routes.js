@@ -11,6 +11,7 @@ const router = express.Router({
 
 const signUpValidations = [
     check('email', 'Некорректный email').isEmail(),
+    check('name', 'Поле имя обязательного заполнения').isLength({min: 3}),
     check('password', 'Минимальная длина пароля 8 символов').isLength({min: 8})
 ]
 
@@ -36,14 +37,15 @@ router.post('/signUp', [
             if (exitingUser) {
                 return res.status(400).json({
                     error: {
-                        message: 'EMAIL_EXISTS'
+                        message: 'EMAIL_EXISTS',
+                        code: 400
                     }
                 })
             }
 
             const hashedPassword = await bcrypt.hash(password, 12)
 
-            const newUser = User.create({
+            const newUser = await User.create({
                 email,
                 ...req.body,
                 password: hashedPassword
@@ -57,14 +59,15 @@ router.post('/signUp', [
             })
         } catch (e) {
             res.status(500).json({
-                message: 'На сервере произошла ошибка. Попробуйте позже'
+                message: 'На сервере произошла ошибка. Попробуйте позже',
+                code: 500
             })
         }
     }]
 )
 
 router.post('/signInWithPassword', [
-    check('email', 'Email некорректный').normalizeEmail().isEmail(),
+    check('email', 'Email некорректный').isEmail(),
     check('password', 'Пароль не может быть пустым').exists(),
     async (req, res) => {
         try {
