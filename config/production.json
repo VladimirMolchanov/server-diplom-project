@@ -1,0 +1,7 @@
+{
+  "port": 8080,
+  "mongoUrl": "mongodb://uberromhhotrlzs6gk8r:iOdqIYirhEtKGZahmQ6e@bnw4p2aip8m3hst-mongodb.services.clever-cloud.com:27017/bnw4p2aip8m3hst",
+  "accessSecret": "E1uAgk8gYNmCyoHOy0DY",
+  "refreshSecret": "Jrp9dgF5kpu0WbmDZT0E"
+}
+
